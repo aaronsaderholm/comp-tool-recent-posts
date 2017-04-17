@@ -58,7 +58,7 @@ class comp_tool_recent_posts extends WP_Widget {
 			<div class="blog-entry-image">
 				<img src="<?php echo $image[0]; ?>" />
 			</div>
-			<h3><?= get_the_title() ?></h3>
+			<h3><a href="<?= get_permalink() ?>"><?= get_the_title() ?></a></h3>
 			<p><?= get_the_date() ?></p>
 		</div>
 		
